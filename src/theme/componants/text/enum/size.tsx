@@ -1,0 +1,55 @@
+export enum EnumTextStyle {
+	XXS_LIGHT = "xxsLight",
+	XXS_NORMAL = "xxsNormal",
+	XXS_MEDIUM = "xxsMedium",
+	XXS_SEMI_BOLD = "xxsSemiBold",
+	XXS_BOLD = "xxsBold",
+
+	XS_LIGHT = "xsLight",
+	XS_NORMAL = "xsNormal",
+	XS_MEDIUM = "xsMedium",
+	XS_SEMI_BOLD = "xsSemiBold",
+	XS_BOLD = "xsBold",
+
+	SM_LIGHT = "smLight",
+	SM_NORMAL = "smNormal",
+	SM_MEDIUM = "smMedium",
+	SM_SEMI_BOLD = "smSemiBold",
+	SM_BOLD = "smBold",
+
+	MD_LIGHT = "mdLight",
+	MD_NORMAL = "mdNormal",
+	MD_MEDIUM = "mdMedium",
+	MD_SEMI_BOLD = "mdSemiBold",
+	MD_BOLD = "mdBold",
+
+	LG_LIGHT = "lgLight",
+	LG_NORMAL = "lgNormal",
+	LG_MEDIUM = "lgMedium",
+	LG_SEMI_BOLD = "lgSemiBold",
+	LG_BOLD = "lgBold",
+
+	XL_LIGHT = "xlLight",
+	XL_NORMAL = "xlNormal",
+	XL_MEDIUM = "xlMedium",
+	XL_SEMI_BOLD = "xlSemiBold",
+	XL_BOLD = "xlBold",
+
+	XXL_LIGHT = "xxlLight",
+	XXL_NORMAL = "xxlNormal",
+	XXL_MEDIUM = "xxlMedium",
+	XXL_SEMI_BOLD = "xxlSemiBold",
+	XXL_BOLD = "xxlBold",
+
+	XXXL_LIGHT = "xxxlLight",
+	XXXL_NORMAL = "xxxlNormal",
+	XXXL_MEDIUM = "xxxlMedium",
+	XXXL_SEMI_BOLD = "xxxlSemiBold",
+	XXXL_BOLD = "xxxlBold",
+
+	XXXXL_LIGHT = "xxxxlLight",
+	XXXXL_NORMAL = "xxxxlNormal",
+	XXXXL_MEDIUM = "xxxxlMedium",
+	XXXXL_SEMI_BOLD = "xxxxlSemiBold",
+	XXXXL_BOLD = "xxxxlBold",
+}
