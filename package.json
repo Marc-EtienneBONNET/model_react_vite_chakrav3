@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "front_end_react_vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,28 +9,29 @@
     "lint": "biome check src",
     "format": "biome format --write src",
     "check": "biome check --fix src",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typegen": "chakra typegen ./src/theme/index.tsx",
+    "prepare": "chakra typegen ./src/theme/index.tsx"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.34.0",
     "@emotion/react": "^11.14.0",
-    "@reduxjs/toolkit": "^2.11.2",
-    "axios": "^1.14.0",
-    "date-fns": "^4.1.0",
-    "formik": "^2.4.9",
-    "jwt-decode": "^4.0.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.13.2"
+    "@reduxjs/toolkit": "^2.12.0",
+    "i18next": "^26.3.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^17.0.8",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "^7.18.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",
-    "@types/node": "^24.12.0",
-    "@types/react": "^19.2.14",
+    "@chakra-ui/cli": "^3.36.0",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
+    "@vitejs/plugin-react": "^6.0.2",
     "typescript": "~5.9.3",
-    "vite": "^8.0.1"
+    "vite": "^8.1.0"
   }
 }
