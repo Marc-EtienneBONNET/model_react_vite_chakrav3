@@ -10,22 +10,22 @@ export const tagRecipe = defineRecipe({
 	variants: {
 		variant: {
 			solid: {
-				bg: "colorPalette.10",
+				bg: "colorPalette.j",
 				color: "white",
-				borderColor: "colorPalette.10",
-				_hover: { bg: "colorPalette.8" },
+				borderColor: "colorPalette.j",
+				_hover: { bg: "colorPalette.h" },
 			},
 			outline: {
 				bg: "transparent",
-				color: "colorPalette.10",
-				borderColor: "colorPalette.10",
-				_hover: { bg: "colorPalette.2" },
+				color: "colorPalette.j",
+				borderColor: "colorPalette.j",
+				_hover: { bg: "colorPalette.b" },
 			},
 			ghost: {
 				bg: "transparent",
-				color: "colorPalette.10",
+				color: "colorPalette.j",
 				borderColor: "transparent",
-				_hover: { bg: "colorPalette.2" },
+				_hover: { bg: "colorPalette.b" },
 			},
 		},
 		size: {

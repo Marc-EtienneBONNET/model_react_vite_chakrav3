@@ -33,66 +33,66 @@ export const colorsSemanticChakra = {
 export const colorsChakra = {
 	primary: {
 		...primary,
-		default: primary[10],
+		default: primary.j,
 	},
 	secondary: {
 		...secondary,
-		default: secondary[10],
+		default: secondary.j,
 	},
 	success: {
 		...success,
-		default: success[10],
+		default: success.j,
 	},
 	destructive: {
 		...destructive,
-		default: destructive[10],
+		default: destructive.j,
 	},
 	warning: {
 		...warning,
-		default: warning[10],
+		default: warning.j,
 	},
 	dark: {
 		...dark,
-		default: dark[10],
+		default: dark.j,
 	},
 	light: {
 		...light,
-		default: light[10],
+		default: light.j,
 	},
 	black: {
 		...black,
-		default: black[10],
+		default: black.j,
 	},
 	white: {
 		...white,
-		default: white[10],
+		default: white.j,
 	},
 	red: {
 		...red,
-		default: red[10],
+		default: red.j,
 	},
 	blue: {
 		...blue,
-		default: blue[10],
+		default: blue.j,
 	},
 	gray: {
 		...gray,
-		default: gray[10],
+		default: gray.j,
 	},
 	green: {
 		...green,
-		default: green[10],
+		default: green.j,
 	},
 	orange: {
 		...orange,
-		default: orange[10],
+		default: orange.j,
 	},
 	purple: {
 		...purple,
-		default: purple[10],
+		default: purple.j,
 	},
 	pink: {
 		...pink,
-		default: pink[10],
+		default: pink.j,
 	},
 };
