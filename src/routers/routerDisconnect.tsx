@@ -15,6 +15,6 @@ export const routerDisconnect = createBrowserRouter([
 	},
 ]);
 
-export const RouterDisconnect = () => {
+export function RouterDisconnect() {
 	return <RouterProvider router={routerDisconnect} />;
-};
+}

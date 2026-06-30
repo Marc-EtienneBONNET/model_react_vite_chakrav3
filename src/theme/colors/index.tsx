@@ -55,7 +55,7 @@ export const colorsChakra = {
 		...dark,
 		default: dark[10],
 	},
-	ligth: {
+	light: {
 		...light,
 		default: light[10],
 	},

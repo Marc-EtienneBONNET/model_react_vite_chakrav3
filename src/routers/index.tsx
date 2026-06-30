@@ -35,11 +35,17 @@ export function Router() {
 
 	useEffect(() => {
 		let isMounted = true;
-		resolveRouter().then((router) => {
-			if (isMounted) {
-				setTargetRouter(() => router);
+		async function loadRouter() {
+			try {
+				const router = await resolveRouter();
+				if (isMounted) {
+					setTargetRouter(() => router);
+				}
+			} catch (error) {
+				console.error("Impossible de faire charger le router", error);
 			}
-		});
+		}
+		loadRouter();
 		return () => {
 			isMounted = false;
 		};

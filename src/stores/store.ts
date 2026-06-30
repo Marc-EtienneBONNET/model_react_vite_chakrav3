@@ -18,6 +18,6 @@ export function initStore() {
 
 export const store = initStore();
 
-export type RootState = StateFromReducersMapObject<typeof reducer>;
+export type TypeRootState = StateFromReducersMapObject<typeof reducer>;
 export type TypeStore = ReturnType<typeof initStore>;
-export type AppDispatch = typeof store.dispatch;
+export type TypeAppDispatch = typeof store.dispatch;

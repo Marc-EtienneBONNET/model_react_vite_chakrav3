@@ -1,7 +1,7 @@
 export enum EnumButtonSize {
-	XS = "xs",
-	S = "sm",
-	M = "md",
-	L = "lg",
-	XL = "xl",
+	xs = "xs",
+	s = "sm",
+	m = "md",
+	l = "lg",
+	xl = "xl",
 }

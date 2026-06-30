@@ -15,6 +15,6 @@ export const routerConnect = createBrowserRouter([
 	},
 ]);
 
-export const RouterConnect = () => {
+export function RouterConnect() {
 	return <RouterProvider router={routerConnect} />;
-};
+}

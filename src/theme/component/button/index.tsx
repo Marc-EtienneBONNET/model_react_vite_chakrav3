@@ -1,6 +1,6 @@
 import { defineRecipe } from "@chakra-ui/react";
 import { EnumButtonSize } from "./enum/size";
-import { EnumButtonVariant } from "./enum/vairant";
+import { EnumButtonVariant } from "./enum/variant";
 
 export const buttonRecipe = defineRecipe({
 	base: {
@@ -53,7 +53,7 @@ export const buttonRecipe = defineRecipe({
 	},
 	defaultVariants: {
 		colorPalette: "primary",
-		variant: EnumButtonVariant.OUTLINE,
-		size: EnumButtonSize.M,
+		variant: EnumButtonVariant.outline,
+		size: EnumButtonSize.m,
 	},
 });

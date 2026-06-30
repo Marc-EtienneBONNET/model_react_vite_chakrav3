@@ -1,6 +1,6 @@
 import { defineRecipe } from "@chakra-ui/react";
 import { EnumTagSize } from "./enum/size";
-import { EnumTagVariant } from "./enum/vairant";
+import { EnumTagVariant } from "./enum/variant";
 
 export const tagRecipe = defineRecipe({
 	base: {
@@ -53,7 +53,7 @@ export const tagRecipe = defineRecipe({
 	},
 	defaultVariants: {
 		colorPalette: "primary",
-		variant: EnumTagVariant.OUTLINE,
-		size: EnumTagSize.M,
+		variant: EnumTagVariant.outline,
+		size: EnumTagSize.m,
 	},
 });
